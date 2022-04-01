@@ -37,26 +37,6 @@ class App extends StatelessWidget {
   }
 }
 
-class Finance extends StatelessWidget {
-  const Finance({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(actions: []),
-    );
-  }
-}
-
-class News extends StatelessWidget {
-  const News({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Container();
-  }
-}
-
 class Animal {
   String name;
   String image;
